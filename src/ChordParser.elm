@@ -5,7 +5,8 @@ import Parser as P exposing ((|.), (|=), Parser)
 
 
 
---  PitchClass + Qualities + Slash note
+--  PitchClass + Maybe Accidental + Qualities + Maybe Slash-note
+--  ex. C#M7♭9sus4
 
 
 type PitchClass
